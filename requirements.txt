@@ -10,3 +10,4 @@ requests
 psutil
 pyromod
 aiohttp
+https://github.com/pyrogram/pyrogram/archive/master.zip
