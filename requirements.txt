@@ -9,5 +9,5 @@ apscheduler
 requests
 psutil
 pyromod
-wheels
+wheels==0.42.0
 aiohttp
