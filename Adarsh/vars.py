@@ -22,7 +22,7 @@ class Var(object):
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "763990585").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'haaaarki'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'haaaaarki'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://vipdlp-dlchinhub.koyeb.app/".format(FQDN)
     else:
         URL = "https://vipdlp-dlchinhub.koyeb.app/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'ir_botz'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
